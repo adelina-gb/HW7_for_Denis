@@ -146,9 +146,8 @@ void Average(int[,] array)
         double result = 0;
         for (int i = 0; i < rows; i++)
         {
-            result =result + array[i,j];    
+            result = result + array[i,j];    
         }
-          
         Console.Write(result/rows + "\t");            
     }
     
